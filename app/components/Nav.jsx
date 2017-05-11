@@ -15,15 +15,13 @@ var Nav = React.createClass({
                             Weather Application
                         </li>
                         <li>
-                            <IndexLink to="/" activeClassName="active">Get
-                                Weather</IndexLink>
+                            <IndexLink to="/" activeClassName="active">Get Weather</IndexLink>
                         </li>
                         <li>
                             <Link to="/about" activeClassName="active">About</Link>
                         </li>
                         <li>
-                            <Link to="/examples"
-                                  activeClassName="active">Examples</Link>
+                            <Link to="/examples" activeClassName="active">Examples</Link>
                         </li>
                     </ul>
                 </div>
