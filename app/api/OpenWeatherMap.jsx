@@ -15,7 +15,7 @@ module.exports = {
               return response.data;
           }
       }, function (response) {
-          throw new Error(response.data.message);
+          throw new Error('City not found');
       });
   }
 };
